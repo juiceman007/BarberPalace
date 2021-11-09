@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_marginBottom="-80dp"
+            android:layout_marginTop="-100dp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textSize="32dp"
+            android:id="@+id/appointmentReminder"
+            android:gravity="center"
+            android:textColor="#d30d00"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_error_message"
+            android:gravity="center"
+            android:textColor="@color/red"/>
+
+
+        <EditText
+            android:id="@+id/email_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email..."
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:background="#b8b8b8"
+            />
+
+        <EditText
+            android:id="@+id/password_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password..."
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:background="#b8b8b8"/>
+
+        <Button
+            android:id="@+id/signIn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:background="#d30d00"
+            android:gravity="center"
+            android:text="Sign In"
+            android:textColor="@color/white"
+            app:backgroundTint="#D30D00" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/signUpLink"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="120dp"
+            android:gravity="center"
+            android:onClick="goToSignUpPage"
+            android:text="Sign up"
+            android:textColor="#D30D00"
+            android:textSize="15sp"
+            app:backgroundTint="@android:color/transparent"
+            app:cornerRadius="8dp"
+            app:iconTint="#D30D00"
+            app:rippleColor="#D30D00"
+            app:strokeColor="#D30D00"
+            app:strokeWidth="2dp" />
+
+
+    </LinearLayout>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

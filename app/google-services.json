@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1062113708157",
+    "project_id": "fir-barberpalace",
+    "storage_bucket": "fir-barberpalace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062113708157:android:aceaf1efd0eeef7b2cc914",
+        "android_client_info": {
+          "package_name": "com.example.barberpalace2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062113708157-14sh9h4ir4m37cstl7pth26brbmmehuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrSUv36XdPomps2hNsR300NwnERNqGY7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062113708157-14sh9h4ir4m37cstl7pth26brbmmehuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
